@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    
+}
+
+.skill {
+    width: 160px;
+    height: 160px;
+    /*    background-color: cornflowerblue;*/
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /*  border: 2px solid orangered;*/  
+    padding: 20px;
+}
+
+.inner {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*  border: 2px solid orangered*/
+}
+
+#number {
+    font-weight: 600;
+    color: #555;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 10px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 0.5s ease forwards;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 876;
+    }
+}
+
+/*Put it on the top of our circle*/
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
