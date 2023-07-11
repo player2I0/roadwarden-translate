@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1685898681,
+	"version": 1689100038,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -14,6 +14,8 @@
 		"images/slidertrail-sheet0.png",
 		"images/slidertrail-sheet1.png",
 		"images/blur-sheet0.png",
+		"images/chart_point-sheet0.png",
+		"images/chart_line-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
